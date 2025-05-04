@@ -18,19 +18,16 @@
 1. 安装依赖：
 ```bash
 pip install openai
-#配置API密钥：
 
-
+##配置API密钥：
 
 original_api_key = "your_api_key"
 backup_api_key = "your_backup_key"
+
 运行程序：
-
-
 python en.py
+
 #代码结构
-
-
 
 # 主要模块
 def create_completion():  # 处理模型请求
