@@ -18,20 +18,20 @@
 1. 安装依赖：
 ```bash
 pip install openai
-配置API密钥：
+#配置API密钥：
 
-python
-Apply
+
+
 original_api_key = "your_api_key"
 backup_api_key = "your_backup_key"
 运行程序：
 
-bash
-python en.py
-代码结构
 
-python
-Apply
+python en.py
+#代码结构
+
+
+
 # 主要模块
 def create_completion():  # 处理模型请求
 def send_question():      # 发送用户问题
@@ -45,8 +45,8 @@ def select_model():       # 模型选择功能
 请妥善保管API密钥
 注意令牌使用限制
 备用模型会在主模型达到限制时自动启用
-贡献指南
+#贡献指南
 欢迎提交issue或PR
 
-许可证
-MIT License
+#许可证
+请不要用于商业用途！！！
